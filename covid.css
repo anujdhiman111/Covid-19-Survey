@@ -1,0 +1,372 @@
+body {
+    margin: 0px;
+    font-family:Nunito,sans-serif;
+}
+.width-controller {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.navigation-container {
+    position: relative;
+}
+.link-bar {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.link-container {
+    float: left;
+    list-style: none;   
+    margin-right: 30px;
+}
+
+a.nav-item {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+}
+.nav-menu {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #06133e;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.button-div {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+}
+.primary-button {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: #CE401F;
+    margin-left: 75px;
+    padding:17px 29px;
+    border:none;
+}
+.dashboard {
+    background-image: url("http://themelooks.us/demo/covidland/html/assets/img/banner.png");
+    min-height: 986px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-section {
+    padding-top: 250px;
+    text-align: center;
+}
+
+.banner-heading{
+    font-size: 52px;
+    line-height: calc(65 / 52);
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 38px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-paragraph{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    max-width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-btn {
+    margin:0px;
+    padding: 22px 29px;
+}
+
+.secondary-button {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color:transparent;
+    padding:17px 29px;
+    border:1px solid #fff;
+    padding: 22px 29px;
+}
+.banner-btn-secondary {
+    margin-left: 20px;
+}
+.primary-button:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.secondary-button:hover {
+    background-color: #CE401F;
+    border: none;
+    transition: 1s;
+}
+
+.inline-class {
+    display: inline-block;
+    width: 223px;
+    height: 200px;
+    padding: 4px;
+    margin-left: -5px;
+    text-align: center;
+}
+
+.update-title {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 0 50px 50px 0;
+    padding-right: 5px;
+    font-family: Poppins,sans-serif;
+    color: red;
+}
+
+.update-title2 {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 10px 0 5px;
+    color: #fff;
+    background-color: black;
+}
+
+.live-update-title {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+.live-meter {
+    z-index: 10;
+    position: relative;
+    top: -90px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.cuTotal{
+    color: #f78b00;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    line-height:1;
+}
+
+.reTotal{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    line-height:1;
+    color: #36c97b;
+}
+
+.deTotal {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    line-height:1;
+    color: #cc0c1b;
+}
+
+.contTotal{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    line-height:1;
+}
+
+.corona-section {
+    padding-bottom: 100px;
+}
+.update-heading {
+    margin-top: 0px;
+}
+
+.confirm-cases{
+    background-color: rgba(247,139,0,.1);
+
+}
+
+.recover-cases{
+    background-color: rgba(54,201,123,.1);
+
+}
+
+.death-cases {
+    background-color: rgba(204,12,27,.1);
+
+}
+
+.total-countries {
+    background-color: rgba(23,56,213,.1);
+
+}
+
+.about-corona {
+    display: inline-block;
+}
+.corona-diseases {
+    float: right;
+    width: 580px;
+    text-align: left;
+}
+.title-heading {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    margin-bottom: 22px;
+    color: red;
+    font-family: Poppins,sans-serif;
+}
+.covid{
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 42px;
+    font-family: Poppins,sans-serif;
+}
+.info {
+    font-family: Nunito,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    text-align: left;
+}
+.corona-symptom {
+    margin-top: 40px;
+}
+
+.symptom-img {
+    width: 42px;
+    height: 42px;
+} 
+
+.single-symptom {
+    width: 168px;
+    float: left;
+    padding-right: 20px;
+}
+.media-body p {
+    font-family: Nunito,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    text-align: left;
+    
+}
+.symptom-img-div {
+    display: inline-block;
+}
+.media-body {
+    float: right;
+    position: relative;
+    right: 45px;
+    bottom: 18px;
+}
+.media-info {
+    position: relative;
+    right:72px;
+}
+.symptom-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F2F4F9;
+}
+.symptom-section-image {
+    padding-top: 100px;
+    min-height: 700px;
+} 
+
+.symptom-section-title {
+    text-align: center;
+}
+
+.corona-doctor-pic {
+    max-width: 100%;
+}
+.doctor-image {
+    display: inline-block;
+    width: 475px;
+}
+
+.HowManySymptom {
+    float: right;
+}
+.symptomOne {
+    width: 390px;
+    margin-right: 0px;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+.symptomOne-heading{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3.2px;
+    font-family: Poppins,sans-serif;
+    color: #cc0c1b;
+}
+.symptomOne-heading2{
+    font-weight: 500;
+    margin: 10px 0 18px;
+    font-size: 24px;
+}
+
+.symptomOne-para {
+    font-family: Nunito,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    text-align: left;
+}
+.covid-prevention-section {
+    background-image: url("http://themelooks.us/demo/covidland/html/assets/img/prevention-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 90px;
+    padding-top: 120px;
+}
+.prevention-title-info {
+    text-align: center;
+}
+.prevention-title {
+    color: #ffffff;
+    
+}
+.prevention {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.prevention-heading {
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.prev-name {
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #ffffff;
+}
