@@ -39,8 +39,8 @@ a.nav-item {
     top: 5px;
 }
 .primary-button {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     color: #fff;
     line-height: 1;
     letter-spacing: 1.2px;
@@ -90,8 +90,8 @@ a.nav-item {
 }
 
 .secondary-button {
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     color: #fff;
     line-height: 1;
     letter-spacing: 1.2px;
@@ -242,12 +242,13 @@ a.nav-item {
     font-family: Poppins,sans-serif;
 }
 .info {
-    font-family: Nunito,sans-serif;
+    font-family: Nunito,sans-serif,roboto;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.625;
     color: #666;
     text-align: left;
+    margin-bottom: 25px;
 }
 .corona-symptom {
     margin-top: 40px;
@@ -295,7 +296,7 @@ a.nav-item {
     min-height: 700px;
 } 
 
-.symptom-section-title {
+.section-title {
     text-align: center;
 }
 
@@ -347,9 +348,6 @@ a.nav-item {
     padding-bottom: 90px;
     padding-top: 120px;
 }
-.prevention-title-info {
-    text-align: center;
-}
 .prevention-title {
     color: #ffffff;
     
@@ -369,4 +367,325 @@ a.nav-item {
     font-weight: 800;
     line-height: 26px;
     color: #ffffff;
+}
+
+.contact-section {
+    padding: 120px 0px;
+    background-color: #F2F4F9;
+}
+.hidden {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 2.5;
+}
+.form-section {
+    max-width: 32%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 48px 35px;
+    margin-top: 70px;
+    display: inline-block;
+}
+.form-input {
+    display: block;
+    width: -webkit-fill-available;
+    height: 56px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 0 15px;
+    background-color: transparent;
+    font-size: inherit;
+}
+
+.submit-button {
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.icon {
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #cc0c1b;
+    padding: 2px 7px 4px 7px;
+}
+.tel-no {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Poppins,sans-serif;
+    color: #111;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.tel-no:hover {
+    color:  #cc0c1b;
+    transition: 1s;
+}
+.child-pic {
+    display: inline-block;
+    margin-left: 40px;
+}
+.helpline-pic {
+    border-radius: 10px;
+    position: relative;
+    top: 67px;
+}
+.bangladesh-corona-section {
+    padding: 120px 0px;
+}
+.total-covid-cases {
+    position: relative;
+    left: 325px;
+    bottom: 155px;
+}
+.total-cases {
+    display: inline-block;
+    width: 225px;
+    max-height: 122px;
+    text-align: center;
+    padding: 22px;
+    margin-bottom: 5px;
+}
+.covid-report {
+    max-width: 825px;
+    max-height: 185px;
+}
+.covid-report-para {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.covid-report-heading {
+    font-family: Nunito,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.report-para {
+    color: #666;
+}
+.report-heading {
+    color:black;
+}
+.today-cases {
+    background-color: #ffc825;
+}
+.today-deaths {
+    background-color: #f70000;
+
+}
+
+.critical-cases {
+    background-color: #d1ecf1;
+}
+
+.recovered-cases {
+    background-color: #19c858;
+}
+.world-corona-diseases {
+    float: left;
+}
+.world-covid-cases {
+    left: 0;
+}
+.countries {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.country-img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.world-corona-update {
+    background-color: #f2f4f9;
+}
+.health-info {
+    list-style: none;
+}
+.corona-para ul {
+    padding-left: 0px;
+}
+.health-img {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.covid-map {
+    padding: 120px 0px;
+}
+.covid-live-tracker {
+    width: 100%;
+    height: 670px;
+    border: none;
+}
+
+.image-div {
+    background-color: #ffffff;
+   box-shadow:0px 4px 4px 0px rgba(0,0,0,0.5);
+}
+
+.title-image {
+    width: 200px;
+    height: 40px;
+    padding: 10px 0px 10px 30px;
+}
+.corona-test-bar {
+    margin-top: 80px;
+}
+.covid-image-bar {
+    background-color: #ECEFF1;
+    padding-bottom: 120px;
+}
+.language-info {
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+    box-shadow:0px 4px 4px 0px rgba(0,0,0,0.5);
+
+}
+
+.language-selector-section {
+    margin-top: 30px;
+}
+.select-language {
+    height: 55px;
+    background-color: #EA5152;
+    box-shadow:0px 4px 4px 0px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+
+}
+.centered-para {
+    padding-top: 18px;
+    color: #ffffff;
+}
+.centered-para1 {
+    color: black;
+}
+
+.language-type {
+    height: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border :1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.language-type:hover{
+    background-color: #EA5152;
+    transition: 0.5s;
+
+}
+
+.website-footer{
+   background-image: url("http://themelooks.us/demo/covidland/html/assets/img/footer-bg.jpg");
+}
+.newsletter-title {
+    display: inline-block;
+    width: 50%;
+}
+.subsricption-div {
+    display: inline-block;
+    width: 49%;
+}
+
+.sub-btn {
+    margin-left: -4px;
+    border-radius: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.email-input-field{
+    height: 45px;
+    width: 70%;
+    font-size: inherit;
+    font-family: Poppins,sans-serif;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 12px;
+    border: none;
+}
+.footer-title-heading{
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    margin-top: auto;
+
+}
+
+.covid-land-fotter {
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.main-footer-section {
+    padding: 70px 0px;
+}
+.footer-img-section{
+    width: 20%;
+}
+.links-section{
+    width: 20%;
+    float: left;
+    margin-right: 56px;
+}
+.footer-para {
+    color: #ffffff;
+} 
+.links-item {
+    color: #ffffff;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.links {
+    padding-left: 0px;
+}
+
+
+.copyright-div {
+    width: 50%;
+    float: left;
+}
+
+.footer-menu {
+    padding: 20px 0px 10px 0px;
+}
+
+a.bar-item {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-bar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-bar {
+    text-align: right;
+}
+.footer-link-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-info:after{
+    content: "";
+    display: table;
+    clear: both;
 }
