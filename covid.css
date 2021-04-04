@@ -24,6 +24,8 @@ a.nav-item {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
+    font-size: 14px;
+    font-family: Nunito,sans-serif
 }
 .nav-menu {
     padding-top: 18px;
@@ -217,11 +219,12 @@ a.nav-item {
 }
 
 .about-corona {
-    display: inline-block;
+    width: 50%;
+    float: left;
 }
 .corona-diseases {
-    float: right;
-    width: 580px;
+    width: 50%;
+    float: left;
     text-align: left;
 }
 .title-heading {
@@ -304,12 +307,13 @@ a.nav-item {
     max-width: 100%;
 }
 .doctor-image {
-    display: inline-block;
-    width: 475px;
+    width: 40%;
+    float: left;
 }
 
 .HowManySymptom {
-    float: right;
+    width: 60%;
+    float: left;
 }
 .symptomOne {
     width: 390px;
@@ -354,7 +358,7 @@ a.nav-item {
 }
 .prevention {
     width: 22%;
-    display: inline-block;
+   float: left;
     text-align: center;
     margin-right: 30px;
 }
@@ -385,7 +389,7 @@ a.nav-item {
     border-radius: 10px;
     padding: 48px 35px;
     margin-top: 70px;
-    display: inline-block;
+    float: left;
 }
 .form-input {
     display: block;
@@ -426,8 +430,10 @@ a.nav-item {
     transition: 1s;
 }
 .child-pic {
-    display: inline-block;
+    width: 67%;
+    float: left;
     margin-left: 40px;
+    text-align: right;
 }
 .helpline-pic {
     border-radius: 10px;
@@ -436,11 +442,17 @@ a.nav-item {
 }
 .bangladesh-corona-section {
     padding: 120px 0px;
+    min-height: 863px;
+    
+}
+.corona-info {
+    position: relative;
 }
 .total-covid-cases {
-    position: relative;
+    position: absolute;
+    width: 71%;
     left: 325px;
-    bottom: 155px;
+    top: 526px;
 }
 .total-cases {
     display: inline-block;
@@ -489,16 +501,33 @@ a.nav-item {
 }
 .world-corona-diseases {
     float: left;
+    width: 48%;
+}
+.about-world-corona {
+    width: 50%;
+    float: left;
+}
+.eating-habbit {
+    width: 50%;
+    float: left;
+}
+.healthy-food-img {
+    width: 50%;
+    float: left;
 }
 .world-covid-cases {
     left: 0;
 }
+.corona-para {
+    padding-right: 30px;
+}
+
 .countries {
     overflow: hidden;
     border-radius: 50%;
-    width: 80px;
+    width: 7%;
     height: 80px;
-    display: inline-block;
+    float: left;
     margin-right: 30px;
 }
 .country-img {
@@ -511,8 +540,13 @@ a.nav-item {
 .world-corona-update {
     background-color: #f2f4f9;
 }
+.world-corona-health-update {
+    background-color: #f2f4f9;
+    padding: 120px 0px;
+}
 .health-info {
     list-style: none;
+    margin-bottom: 18px;
 }
 .corona-para ul {
     padding-left: 0px;
@@ -595,12 +629,12 @@ a.nav-item {
    background-image: url("http://themelooks.us/demo/covidland/html/assets/img/footer-bg.jpg");
 }
 .newsletter-title {
-    display: inline-block;
     width: 50%;
+    float: left;
 }
 .subsricption-div {
-    display: inline-block;
-    width: 49%;
+    width: 50%;
+    float: left;
 }
 
 .sub-btn {
@@ -679,12 +713,7 @@ a.bar-item {
 .footer-bar {
     text-align: right;
 }
-.footer-link-content:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.footer-info:after{
+.float-check:after {
     content: "";
     display: table;
     clear: both;
