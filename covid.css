@@ -526,13 +526,13 @@ a.nav-item {
 
 .countries {
     overflow: hidden;
-    border-radius: 50%;
     width: 7%;
     height: 80px;
     float: left;
     margin-right: 30px;
 }
 .country-img {
+    border-radius: 50%;
     width: 80px;
     height: 80px;
     -o-object-fit: cover;
@@ -767,7 +767,7 @@ a.bar-item {
         width: 8%;
     } 
     .child-pic {
-        width: 58%;
+        width: 57%;
         padding-left: 30px;
         margin-left: 0px;
     }
@@ -900,3 +900,46 @@ a.bar-item {
     }
 }
 
+@media screen and (max-width:425px){
+   .width-controller{
+       margin-left: 20px;
+       margin-right: 20px;
+   }
+   .banner-heading{
+       font-size: 30px;
+   }
+   .banner-paragraph{
+       font-size:16px;
+   }
+   .banner-btn-secondary{
+       margin-left: 1px;
+       margin-top: 15px;
+   }
+   .inline-class{
+       width: 100%;
+   }
+   .covid-img{
+       width: 115%;
+   }
+   .corona-para{
+       padding-right: 0px;
+   }
+   .prevention{
+       width: 100%;
+   }
+   .total-cases{
+    width: -webkit-fill-available;
+   }
+   .form-section{
+    width: -webkit-fill-available;
+   }
+   .countries{
+       width: 45%;
+   }
+   .links-section{
+       text-align: left;
+   }
+   .links-item{
+       text-align: left;
+   }
+}
