@@ -12,6 +12,9 @@
                <nav class="navigation-container width-controller">
                   <img src="http://themelooks.us/demo/covidland/html/assets/img/logo.png"
                   class="website-logo"/>
+                  <ul class="ham-menu">
+                    <li class="link-container-menu" onclick="toggleClass()">&#9776;</li>
+                  </ul>
                   <ul class="link-bar">
                     <li class="link-container"><a href="#" class="nav-item">HEALTH TOPICS</a></li>
                     <li class="link-container"><a href="#" class="nav-item">COUNTRIES</a></li>
@@ -19,6 +22,7 @@
                     <li class="link-container"><a href="#" class="nav-item">ONLINE TEST</a></li>
                     <li class="link-container"><a href="#" class="nav-item">PAGES</a></li>
                   </ul>
+                  
                   <div class="align-item-right button-div">
                     <button class="primary-button">ARE YOU SICK?</button>
                   </div>
@@ -592,5 +596,11 @@
                 </div>
             </div>
         </footer>
+        <script>
+            function toggleClass() {
+                let menu = document.querySelector(".link-bar");
+                menu.classList.toggle("togleCls");
+            }
+        </script>
     </body>
 </html>

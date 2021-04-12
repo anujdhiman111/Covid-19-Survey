@@ -19,7 +19,11 @@ body {
     list-style: none;   
     margin-right: 30px;
 }
-
+.link-container-menu {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
 a.nav-item {
     text-decoration: none;
     color: #ffffff;
@@ -53,6 +57,15 @@ a.nav-item {
     margin-left: 75px;
     padding:17px 29px;
     border:none;
+}
+.ham-menu {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 90px;
+    font-size: 22px;
+    margin-top: 0px;
+    color: #fff;
 }
 .dashboard {
     background-image: url("http://themelooks.us/demo/covidland/html/assets/img/banner.png");
@@ -942,4 +955,48 @@ a.bar-item {
    .links-item{
        text-align: left;
    }
+   .button-div {
+       display: none;
+   }
+   .link-bar{
+       display: none;
+   }
+   .link-bar.togleCls{
+       display: block;
+       margin-bottom: 0px;
+       height: 30px;
+   }
+   .link-container{
+    margin-bottom: 8px;
+   }
+   .nav-menu{
+       padding: 10px 0px;
+   }
 }
+
+@media screen and (min-width:426px){
+    .link-container-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .ham-menu {
+        display: inline-block;
+        position: relative;
+        top: 12px;
+        left: 42px;
+        font-size: 22px;
+        margin-top: 0px;
+        color: #fff;
+    }
+    .email-input-field{
+        padding-left: 0px;
+    }
+    .sub-btn{
+        margin-left: -5px;
+        line-height: normal;
+    }
+}
+
+
